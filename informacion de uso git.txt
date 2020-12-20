@@ -1,0 +1,12 @@
+en la terminar de code ya en ubicadoe la carpeta del proyecto desde la terminal
+
+1) git init
+configuramos nombre y correo:
+2) git config --global user.name "tu nombre" //esta linea de comando es para definir este nombre para todos los proyectos
+2.2) git config user.name "tu nombre" // para definir nombre para un proyecto en especifico
+correo:
+3) git config --global user.email tucorreo@ejemplo.com
+3.3) git config user.email tucorreo@ejemplo.com
+
+
+asegurese de configurar los valores de "user.name" y "user.email" en git
