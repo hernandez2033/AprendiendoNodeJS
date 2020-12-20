@@ -9,4 +9,4 @@ correo:
 3.3) git config user.email tucorreo@ejemplo.com
 
 
-asegurese de configurar los valores de "user.name" y "user.email" en git
+asegurese de configurar los valores de "user.name" y "user.email" en git este error se da por que no se a configurado el paso 2 o 3
