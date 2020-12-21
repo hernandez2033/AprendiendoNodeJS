@@ -1,4 +1,27 @@
+importante: 
+
+The requested URL returned error: 403
+
+para solucionar este error:
+----------------------------------------
+vercion windows
+
+Lo más probable es que ya lo hayan solucionado, sin embargo, si una persona llegó hasta aquí, 
+la solución a nivel de windows … ingresar a Panel de control\Todos los elementos de 
+Panel de control\Administrador de credenciales y crendenciales de windows buscar y eliminar la crendencial guardada de github. 
+Reintentar el push remote, de esta forma github solicita las credenciales a nivel remoto, solucionando así el problema.
+
+vercion mac
+
+¡Exacto! En el caso de que estes usando macOS para la corrección de este error ve al “Acceso a llaveros” 
+para ello usa el Spotlight de tu mac, una vez ahí busca “git” en la lista que te aparece encuentra el renglón que contenga:
+
+Nombre: github .com Clase: contraseña de internet Llavero: inicio de sesión
+
+Elimina esta entrada con click derecho y listo. Ve a la terminal y de nuevo te volverá a pedir tus credenciales.
+
 en la terminar de code ya en ubicadoe la carpeta del proyecto desde la terminal
+---------------------------------------------
 
 1) git init
 configuramos nombre y correo:
