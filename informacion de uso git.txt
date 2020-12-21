@@ -7,6 +7,13 @@ configuramos nombre y correo:
 correo:
 3) git config --global user.email tucorreo@ejemplo.com
 3.3) git config user.email tucorreo@ejemplo.com
-
-
 asegurese de configurar los valores de "user.name" y "user.email" en git este error se da por que no se a configurado el paso 2 o 3
+
+agregamos nustro repositorio remoto
+
+4) git remote add origin https://github.com/Milton-2020/primeros_pasos_nodejs.git
+
+notas:
+para verificar la configuracion realizada puedes ejecutar lo siguiente 
+
+git config --list  //para salir de la ejecucion solo precionas la etra q
