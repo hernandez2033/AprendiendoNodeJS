@@ -76,6 +76,15 @@ subirlo a un repocitorio remoto
 git remote add origin https://github.com/Milton-2020/AprendiendoGit.git
 
 git push -u origin master
+----------------------------------------------------------
+verificar los repositorios remotos
+
+git remote -v
+
+---------------------------------------------------------
+cambiar de repositorio
+
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 
 
 
